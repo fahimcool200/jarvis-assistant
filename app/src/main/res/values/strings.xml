@@ -28,7 +28,7 @@
     <string name="voice_label">Voice</string>
     <string name="personality_label">Personality</string>
     <string name="username_label">User Name</string>
-    <string name="username_hint">e.g. Tony Stark, Sir, Boss (optional)</string>
+    <string name="username_hint">e.g. Fahim, Sir, Boss (optional)</string>
 
     <string name="chat_history_title">Conversation History</string>
     <string name="no_history">No conversation turns yet.</string>
