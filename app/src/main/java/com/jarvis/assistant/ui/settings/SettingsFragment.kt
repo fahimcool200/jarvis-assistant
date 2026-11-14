@@ -195,13 +195,9 @@ class SettingsFragment : Fragment() {
             openUrl("https://t.me/+sYana61LvHdmZmE1")
         }
 
-        binding.btnSocialInstagram.setOnClickListener {
-            openUrl("https://www.instagram.com/techgptx.ai")
-        }
-
-        binding.btnSocialYoutube.setOnClickListener {
-            openUrl("https://youtube.com/@TechGptX")
-        }
+        // Social links of the previous owner removed — hidden until Fahim adds his own.
+        binding.btnSocialInstagram.visibility = View.GONE
+        binding.btnSocialYoutube.visibility = View.GONE
 
         binding.tvFooterCredit.setOnClickListener {
             openUrl("https://t.me/+sYana61LvHdmZmE1")

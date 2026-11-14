@@ -3,6 +3,7 @@ package com.jarvis.assistant.ui.settings
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
+import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import com.jarvis.assistant.databinding.ActivityPrivacyShieldBinding
 import com.jarvis.assistant.util.ThemeManager
@@ -30,13 +31,9 @@ class PrivacyShieldActivity : AppCompatActivity() {
             openUrl("https://t.me/+DmyO7NFUia01YTVl")
         }
 
-        binding.btnJoinInstagram.setOnClickListener {
-            openUrl("https://www.instagram.com/techgptx.ai")
-        }
-
-        binding.btnJoinYoutube.setOnClickListener {
-            openUrl("https://youtube.com/@TechGptX")
-        }
+        // Social links of the previous owner removed — hidden until Fahim adds his own.
+        binding.btnJoinInstagram.visibility = View.GONE
+        binding.btnJoinYoutube.visibility = View.GONE
     }
 
     private fun openUrl(url: String) {

@@ -61,9 +61,7 @@ class HandsFreeActivity : AppCompatActivity() {
             openUrl("https://t.me/+DmyO7NFUia01YTVl")
         }
 
-        binding.btnHandsFreeInstagram.setOnClickListener {
-            openUrl("https://www.instagram.com/techgptx.ai")
-        }
+        // Instagram row of the previous owner was removed from the layout.
 
         binding.tvFooterHandsFree.setOnClickListener {
             openUrl("https://t.me/+sYana61LvHdmZmE1")

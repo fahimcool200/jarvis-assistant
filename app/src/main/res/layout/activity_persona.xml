@@ -113,7 +113,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="3dp"
-                        android:text="Ready to help, TechGPT X."
+                        android:text="Ready to help, Fahim."
                         android:textColor="?attr/themeTextMuted"
                         android:textSize="12sp" />
                 </LinearLayout>
@@ -188,7 +188,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Intelligent, witty &amp; strategic assistant by TechGPT X"
+                        android:text="Intelligent, witty &amp; strategic assistant by Fahim"
                         android:textColor="?attr/themeTextMuted"
                         android:textSize="12sp"
                         android:fontFamily="sans-serif"
@@ -371,9 +371,9 @@
                     android:focusable="false" />
             </LinearLayout>
 
-            <!-- 4. TechGPT X Mode -->
+            <!-- 4. Fahim Mode -->
             <LinearLayout
-                android:id="@+id/cardPersonaTechGpt"
+                android:id="@+id/cardPersonaFahim"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
@@ -394,7 +394,7 @@
                         android:src="@drawable/ic_code_chip"
                         app:tint="#10B981"
                         android:padding="12dp"
-                        android:contentDescription="TechGPT X" />
+                        android:contentDescription="Fahim" />
                 </FrameLayout>
 
                 <LinearLayout
@@ -413,7 +413,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="TechGPT X Mode"
+                            android:text="Fahim Mode"
                             android:textColor="?attr/themeTextPrimary"
                             android:textSize="16sp"
                             android:fontFamily="sans-serif-medium"
@@ -448,7 +448,7 @@
                 </LinearLayout>
 
                 <RadioButton
-                    android:id="@+id/rbSelectTechGpt"
+                    android:id="@+id/rbSelectFahim"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:clickable="false"
@@ -459,7 +459,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="User Name (Default: TechGPT X)"
+                android:text="User Name (Default: Fahim)"
                 android:textColor="?attr/themeTextMuted"
                 android:textSize="13sp"
                 android:fontFamily="sans-serif-medium"
@@ -498,8 +498,8 @@
                         android:id="@+id/etUserName"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:hint="TechGPT X"
-                        android:text="TechGPT X"
+                        android:hint="Fahim"
+                        android:text="Fahim"
                         android:inputType="textPersonName"
                         android:textColor="?attr/themeTextPrimary"
                         android:textSize="14sp"
